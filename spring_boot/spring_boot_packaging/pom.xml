@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.savdev.sb.packaging</groupId>
+  <artifactId>sb-packaging</artifactId>
+  <packaging>pom</packaging>
+  <version>0.0.1</version>
+
+  <name>Spring Boot Packaging Parent</name>
+
+  <modules>
+    <module>jar_app</module>
+    <module>jar_web_app</module>
+    <module>war_app</module>
+    <module>executable_jar_app</module>
+    <module>executable_war_app</module>
+  </modules>
+
+</project>
